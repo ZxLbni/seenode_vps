@@ -86,7 +86,7 @@ async def start_web_server():
     app = await web_server()
     runner = web.AppRunner(app)
     await runner.setup()
-    site = web.TCPSite(runner, "0.0.0.0", 8000)
+    site = web.TCPSite(runner, "0.0.0.0", 80)
     await site.start()
 
 def main():

@@ -53,7 +53,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose port 8000
-EXPOSE 8000
+EXPOSE 80
 
 # Set the default command to run the application
 CMD ["python3", "bot.py"]

@@ -91,7 +91,7 @@ async def start_web_server():
 
 def main():
     # Replace '7863196804:AAHLuwSibBQf4denufOtuflKDinvzHgRfDw' with your actual bot token
-    updater = Updater("7863196804:AAHLuwSibBQf4denufOtuflKDinvzHgRfDw", use_context=True)
+    updater = Updater("7837580863:AAF7TNuwoPKx6PMflnOnJ5FeliBZ945Py8c", use_context=True)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
